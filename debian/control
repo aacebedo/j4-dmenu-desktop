@@ -1,0 +1,13 @@
+Source: j4-dmenu-desktop
+section: utils
+Priority: optional
+Maintainer: Alexandre Acebedo <alexandre.acebedo@gmail.com>
+Build-Depends: debhelper (>= 9), cmake, git
+Standards-Version: 3.9.5
+Homepage: http://www.github.com/aacebedo/j4-dmenu-desktop
+
+Package: j4-dmenu-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description:
+ j4-dmenu-desktop is a replacement for i3-dmenu-desktop. It's purpose is to find .desktop files and offer you a menu to start an application using dmenu. Since r2.7 j4-dmenu-desktop doesn't require i3wm anymore and should work just fine on about any desktop environment.
