@@ -1,4 +1,4 @@
-j4-dmenu-desktop (2.13.0-2) unstable; urgency=low
+j4-dmenu-desktop (2.13.0-3) unstable; urgency=low
 
   * GenericName fields are added to the menu, too
   * Added manpage j4-dmenu-desktop(1)
